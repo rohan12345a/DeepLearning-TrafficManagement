@@ -1,12 +1,86 @@
+# Traffic Management Using Computer Vision and Deep Learning
 
-Our project focuses on enhancing road safety through advanced deep learning techniques. We've developed Convolutional Neural Network (CNN) models capable of accurately classifying traffic signs across 43 different categories and detecting distracted drivers, classifying them into 10 distinct categories based on their behavior.
+## Project Overview
 
-## Models
+This project focuses on enhancing traffic management through the application of computer vision and deep learning techniques. We developed Convolutional Neural Network (CNN) models for two main tasks: traffic sign classification and distracted driver detection.
 
-- **Traffic Sign Classifier**: Our CNN model accurately classifies traffic signs into 43 different categories. The model has been trained on a comprehensive dataset and evaluated extensively to ensure its efficacy in real-world scenarios.
+## Key Features
 
-- **Distracted Driver Detection**: We've trained a separate model for detecting distracted drivers, categorizing them into 10 distinct behaviors. This model contributes to improving overall road safety by identifying potentially hazardous driving behaviors.
+- **Traffic Sign Classification**: 
+  - Classified traffic signs into 43 categories.
+  - Achieved high performance with:
+    - **Precision**: 0.9802
+    - **Recall**: 0.9769
+    - **Accuracy**: 0.9990
 
-## Optimization
+- **Distracted Driver Detection**: 
+  - Identified 10 different driver behaviors.
+  - Achieved excellent results with:
+    - **Precision**: 0.9942
+    - **Recall**: 0.9942
+    - **Accuracy**: 0.9988
 
-To optimize performance, we implemented Bayesian optimization techniques to fine-tune the hyperparameters of specific models. This ensures that our models operate at peak efficiency, further enhancing their accuracy and reliability.
+## Datasets
+
+- **Traffic Sign Dataset**: Contains images of traffic signs categorized into 43 different types.
+- **Distracted Driver Dataset**: Comprises images of drivers exhibiting 10 distinct behaviors.
+
+## Models and Methodology
+
+### Traffic Sign Classification
+
+- **Model**: Convolutional Neural Network (CNN)
+- **Categories**: 43 types of traffic signs
+
+
+### Distracted Driver Detection
+
+- **Model**: Convolutional Neural Network (CNN)
+- **Behaviors Detected**: 10 different driver behaviors
+
+## Technologies Used
+
+- **Python**: For model development and data preprocessing.
+- **TensorFlow/Keras**: This is for building and training the CNN models.
+- **OpenCV**: For image processing and augmentation.
+- **Jupyter Notebook**: For experimentation and visualization.
+
+## Installation and Usage
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/rohan12345a/DeepLearning-TrafficManagement/edit/main
+    ```
+2. **Install the required packages**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. **Run the Jupyter Notebooks**:
+    - Open the Jupyter Notebooks in the repository to explore the model development and evaluation process.
+
+## Results
+
+### Traffic Sign Classification
+- **Precision**: 0.9802
+- **Recall**: 0.9769
+- **Accuracy**: 0.9990
+
+### Distracted Driver Detection
+- **Precision**: 0.9942
+- **Recall**: 0.9942
+- **Accuracy**: 0.9988
+
+## Contribution
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to create a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+---
+
+Feel free to reach out for any queries or feedback.
+
+Safe Driving!
