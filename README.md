@@ -49,7 +49,7 @@ This project focuses on enhancing traffic management through the application of 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/rohan12345a/DeepLearning-TrafficManagement/edit/main
+    git clone https://github.com/rohan12345a/DeepLearning-TrafficManagement
     ```
 2. **Install the required packages**:
     ```bash
